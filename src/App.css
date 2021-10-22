@@ -20,23 +20,23 @@ body {
   background-color: var(--light);
   display: flex;
   justify-content: center;
-
 }
 
 .header {
   display: flex;
   justify-content: center;
+  margin-top: 54px;
+  padding: 0.9em;
 }
 
 .header__title {
   color: var(--navy);
   font-family: 'Cattino';
   font-size: 3rem;
-  padding: 0.4em;
   line-height: 1.2;
 }
 
-.container {
+.cards__wrapper {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -86,28 +86,39 @@ body {
 
 .links:hover {
   color: var(--red);
-  font-family: 'Cattino';
-  font-size: 1.5em;
-  text-decoration: none;
 }
-
 
 .nav__container {
   background: var(--navy);
   width: 100%;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
   border-radius: 5px;
   box-shadow: 0 3px 7px 0 rgb(13, 59, 102, 0.2);
-  align-items: center;
 }
 
 .nav {
-  justify-content: space-around;
   height: 3.5em;
 }
 
 .footer {
   min-height: 230px;
-  justify-content: space-around;
   line-height: 2em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer__section {
+  min-width: 150px;
+}
+
+.sticky {
+  position: fixed;
+  max-width: 1000px;
+}
+
+.icon {
+  max-width: 30px;
 }

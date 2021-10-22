@@ -1,10 +1,10 @@
 import './App.css';
+import icon from './cat.png'
 
 function App() {
-
   return (
     <>
-      <nav className="nav__container nav">
+      <nav className="nav__container nav sticky content">
       <ul className="nav__container nav">
             <li><a className="links" href="home">Home</a></li>
             <li><a className="links" href="mews">Mews</a></li>
@@ -18,7 +18,7 @@ function App() {
       </header>
 
       <main>
-        <div className="container">
+        <div className="cards__wrapper">
           <div className="card">
             <h2 className="card__text card__header">Cindy Clawford</h2>
             <img className="card__image" src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" alt="A cute tabby kitten"></img>
@@ -56,7 +56,7 @@ function App() {
 
 <footer>
       <section className="nav__container footer">
-        <div className="ft-main-item">
+        <div className="footer__section">
           <h2 className="links">About</h2>
           <ul>
             <li><a className="links" href="https://www.cats.org.uk/sponsor">Belly Rubs</a></li>
@@ -65,7 +65,7 @@ function App() {
             <li><a className="links" href="https://www.cats.org.uk/sponsor">Customers</a></li>
           </ul>
         </div>
-        <div className="ft-main-item">
+        <div className="footer__section">
           <h2 className="links">Resources</h2>
           <ul>
             <li><a className="links" href="https://www.cats.org.uk/sponsor">Dogs</a></li>
@@ -74,7 +74,7 @@ function App() {
             <li><a className="links" href="https://www.cats.org.uk/sponsor">Revenge</a></li>
           </ul>
         </div>
-        <div className="ft-main-item">
+        <div className="footer__section">
           <h2 className="links">Contact</h2>
           <ul>
             <li><a className="links" href="https://www.cats.org.uk/sponsor">Help</a></li>
@@ -82,18 +82,16 @@ function App() {
             <li><a className="links" href="https://www.cats.org.uk/sponsor">Mice</a></li>
           </ul>
         </div>
-
-        <div className="ft-main-item">
+        <div className="footer__section">
           <ul>
-          <li><a className="links" href="https://www.cats.org.uk/sponsor">Terms &amp; Conditions</a></li>
+          <li><a className="links" href="https://www.cats.org.uk/sponsor">Ts &amp; Cs</a></li>
           <li><a className="links" href="https://www.cats.org.uk/sponsor">Privacy Policy</a></li>
-          <li className="links">&copy; 2021 Copyright TR Inc.</li>
+          <li className="links">&copy; 2021 TR Inc.</li>
+          <i><img class="icon" src={icon} alt="A ginger cat silhouette"/></i>
           </ul>
         </div>
       </section>
-  
     </footer>
-
     </>
   );
 }
