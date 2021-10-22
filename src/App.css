@@ -19,18 +19,22 @@
 h1 {
   color: var(--navy);
   font-family: 'Cattino';
-  font-size: 3em;
+  font-size: 3rem;
   padding: 0.5em;
 }
 
-h3, p {
+h2, p {
   color: var(--navy);
   font-family: 'SleepyCat';
-  font-size: 1.7em;
+  font-size: 1.7rem;
+  line-height: 1.4;
 }
 
 body {
   background-color: var(--light);
+  display: flex;
+  justify-content: center;
+
 }
 
 .header {
@@ -41,18 +45,42 @@ body {
 .card-container {
   display: flex;
   justify-content: space-evenly;
-  border: 5px solid var(--navy);
+  flex-wrap: wrap;
+  max-width: 1000px;
 }
 
 .card {
   padding: 1.5em;
-  border: 5px solid var(--red);
+  border: 6px solid var(--red);
   max-width: 250px;
+  min-width: 180px;
   border-radius: 7px;
   background:var(--yellow);
+  margin-bottom: 1em;
+  box-shadow: 0 4px 8px 0 rgb(13, 59, 102, 0.4);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgb(13, 59, 102, 0.9);
 }
 
 img {
   width: 100%;
   border-radius: 5px;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+
+.nav {
+  background: var(--navy);
+  width: 100%;
+  color: var(--yellow);
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  color: var(--yellow);
 }
