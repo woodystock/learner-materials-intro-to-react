@@ -4,53 +4,95 @@ function App() {
 
   return (
     <>
-
-      <div className="nav">
-        <ul className="nav">
-          <li ><a className="nav-links" href="default.asp">Home</a></li>
-          <li><a className="nav-links" href="news.asp">News</a></li>
-          <li><a className="nav-links" href="contact.asp">Contact</a></li>
-          <li><a className="nav-links" href="about.asp">About</a></li>
-        </ul>
-      </div>
+      <nav className="nav__container nav">
+      <ul className="nav__container nav">
+            <li><a className="links" href="home">Home</a></li>
+            <li><a className="links" href="mews">Mews</a></li>
+            <li><a className="links" href="contact">Contact</a></li>
+            <li><a className="links" href="https://www.cats.org.uk/sponsor">About</a></li>
+          </ul>
+      </nav>
 
       <header className="header">
-        <h1>Welcome to React!</h1>
+        <h1 className="header__title">Welcome to React!</h1>
       </header>
 
-      <div className="card-container">
-        <div className="card">
-          <h2 className="cat-name">Cindy Clawford</h2>
-          <img src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" alt=""></img>
-          <p className="species">Species: Cat</p>
-          <p className="fav-foods">Favourite Food(s): Mice</p>
-          <p className="birth-year">Birth Year: 2012</p>
+      <main>
+        <div className="container">
+          <div className="card">
+            <h2 className="card__text card__header">Cindy Clawford</h2>
+            <img className="card__image" src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" alt="A cute tabby kitten"></img>
+            <p className="card__text">Species: Cat</p>
+            <p className="card__text">Favourite Food(s): Mice</p>
+            <p className="card__text">Birth Year: 2012</p>
+          </div>
+
+          <div className="card">
+            <h2 className="card__text card__header">Little Miss Purrfect</h2>
+            <img className="card__image" src="https://learnwebcode.github.io/json-example/images/cat-2.jpg" alt="A gray fluffy kitten"></img>
+            <p className="card__text">Species: Cat</p>
+            <p className="card__text">Favourite Food(s): Wet food, dry food</p>
+            <p className="card__text">Birth Year: 2016</p>
+          </div>
+
+          <div className="card">
+            <h2 className="card__text card__header">El Taco</h2>
+            <img className="card__image" src="https://i.imgflip.com/mh1vd.jpg" alt="A cat wearing a sombrero, drinking tequila"></img>
+            <p className="card__text">Species: Cat</p>
+            <p className="card__text">Favourite Food(s): tequila, bar snax</p>
+            <p className="card__text">Birth Year: 1995</p>
+          </div>
+
+          <div className="card">
+            <h2 className="card__text card__header">Mr Gwumpy</h2>
+            <img className="card__image" src="https://cdn.cnn.com/cnnnext/dam/assets/190517103414-01-grumpy-cat-file-restricted.jpg" alt="A grumpy cat, frowning angrily"></img>
+            <p className="card__text">Species: Cat</p>
+            <p className="card__text">Favourite Food(s): Caviar</p>
+            <p className="card__text">Birth Year: 1984</p>
+          </div>
+        </div>
+      </main>
+
+
+<footer>
+      <section className="nav__container footer">
+        <div className="ft-main-item">
+          <h2 className="links">About</h2>
+          <ul>
+            <li><a className="links" href="https://www.cats.org.uk/sponsor">Belly Rubs</a></li>
+            <li><a className="links" href="https://www.cats.org.uk/sponsor">Donate</a></li>
+            <li><a className="links" href="https://www.cats.org.uk/sponsor">Cat Nip</a></li>
+            <li><a className="links" href="https://www.cats.org.uk/sponsor">Customers</a></li>
+          </ul>
+        </div>
+        <div className="ft-main-item">
+          <h2 className="links">Resources</h2>
+          <ul>
+            <li><a className="links" href="https://www.cats.org.uk/sponsor">Dogs</a></li>
+            <li><a className="links" href="https://www.cats.org.uk/sponsor">Blog</a></li>
+            <li><a className="links" href="https://www.cats.org.uk/sponsor">eBooks</a></li>
+            <li><a className="links" href="https://www.cats.org.uk/sponsor">Revenge</a></li>
+          </ul>
+        </div>
+        <div className="ft-main-item">
+          <h2 className="links">Contact</h2>
+          <ul>
+            <li><a className="links" href="https://www.cats.org.uk/sponsor">Help</a></li>
+            <li><a className="links" href="https://www.cats.org.uk/sponsor">Meow</a></li>
+            <li><a className="links" href="https://www.cats.org.uk/sponsor">Mice</a></li>
+          </ul>
         </div>
 
-        <div className="card">
-          <h2 className="cat-name">Little Miss Purrfect</h2>
-          <img src="https://learnwebcode.github.io/json-example/images/cat-2.jpg" alt=""></img>
-          <p className="species">Species: Cat</p>
-          <p className="fav-foods">Favourite Food(s): Wet food, dry food</p>
-          <p className="birth-year">Birth Year: 2016</p>
+        <div className="ft-main-item">
+          <ul>
+          <li><a className="links" href="https://www.cats.org.uk/sponsor">Terms &amp; Conditions</a></li>
+          <li><a className="links" href="https://www.cats.org.uk/sponsor">Privacy Policy</a></li>
+          <li className="links">&copy; 2021 Copyright TR Inc.</li>
+          </ul>
         </div>
-
-        <div className="card">
-          <h2 className="cat-name">El Taco</h2>
-          <img src="https://i.imgflip.com/mh1vd.jpg" alt=""></img>
-          <p className="species">Species: Cat</p>
-          <p className="fav-foods">Favourite Food(s): tequila, bar snax</p>
-          <p className="birth-year">Birth Year: 1995</p>
-        </div>
-
-        <div className="card">
-          <h2 className="cat-name">Mr Gwumpy</h2>
-          <img src="https://cdn.cnn.com/cnnnext/dam/assets/190517103414-01-grumpy-cat-file-restricted.jpg" alt=""></img>
-          <p className="species">Species: Cat</p>
-          <p className="fav-foods">Favourite Food(s): Caviar</p>
-          <p className="birth-year">Birth Year: 1984</p>
-        </div>
-      </div>
+      </section>
+  
+    </footer>
 
     </>
   );

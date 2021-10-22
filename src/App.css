@@ -16,20 +16,6 @@
   src: local('Cattino'), url(./fonts/Cattino.otf) format('woff');
 }
 
-h1 {
-  color: var(--navy);
-  font-family: 'Cattino';
-  font-size: 3rem;
-  padding: 0.5em;
-}
-
-h2, p {
-  color: var(--navy);
-  font-family: 'SleepyCat';
-  font-size: 1.7rem;
-  line-height: 1.4;
-}
-
 body {
   background-color: var(--light);
   display: flex;
@@ -42,7 +28,15 @@ body {
   justify-content: center;
 }
 
-.card-container {
+.header__title {
+  color: var(--navy);
+  font-family: 'Cattino';
+  font-size: 3rem;
+  padding: 0.4em;
+  line-height: 1.2;
+}
+
+.container {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -65,22 +59,55 @@ body {
   box-shadow: 0 4px 8px 0 rgb(13, 59, 102, 0.9);
 }
 
-img {
+.card__text {
+  color: var(--navy);
+  font-family: 'SleepyCat';
+  line-height: 1.4;
+  font-size: 1.7rem;
+}
+
+.card__header {
+  font-size: 2rem;
+}
+
+.card__image {
   width: 100%;
   border-radius: 5px;
   margin-top: .5em;
   margin-bottom: .5em;
 }
 
-
-.nav {
-  background: var(--navy);
-  width: 100%;
+.links {
   color: var(--yellow);
-  display: flex;
-  justify-content: space-between;
+  font-family: 'Cattino';
+  font-size: 1.5em;
+  text-decoration: none;
 }
 
-.nav-links {
-  color: var(--yellow);
+.links:hover {
+  color: var(--red);
+  font-family: 'Cattino';
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+
+.nav__container {
+  background: var(--navy);
+  width: 100%;
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 0 3px 7px 0 rgb(13, 59, 102, 0.2);
+  align-items: center;
+}
+
+.nav {
+  justify-content: space-around;
+  height: 3.5em;
+}
+
+.footer {
+  min-height: 230px;
+  justify-content: space-around;
+  line-height: 2em;
 }
