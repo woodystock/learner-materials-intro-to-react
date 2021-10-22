@@ -87,7 +87,7 @@ function App() {
           <li><a className="links" href="https://www.cats.org.uk/sponsor">Ts &amp; Cs</a></li>
           <li><a className="links" href="https://www.cats.org.uk/sponsor">Privacy Policy</a></li>
           <li className="links">&copy; 2021 TR Inc.</li>
-          <i><img class="icon" src={icon} alt="A ginger cat silhouette"/></i>
+          <i><img className="icon" src={icon} alt="A ginger cat silhouette"/></i>
           </ul>
         </div>
       </section>
