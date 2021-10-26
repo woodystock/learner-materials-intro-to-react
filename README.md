@@ -65,14 +65,15 @@ export default Button;
 
 - Note how the function name "Button" has a capital "B", this is a naming convention in React
 
-- If we were returning more than one element we would need to wrap our component in a <div></div> or fragment <></>
+- Depending on your version of React you might have to add `import React from 'react'` at the top of the button file
 
-- Notice how we export out Button at the end. This is so we can import out function and use it elsewhere in our application
+- If we were returning more than one element we would need to wrap our component in a `<div></div>` or fragment `<></>`
 
-- Components can refer to other components in their output by importing them 
+- Notice how we export our Button at the end. This is so we can import our function and use it elsewhere in our application
+
+- Components can refer to other components in their output. So if we wanted to, our button could import another Button component, or a Header component - or anything we like! 
 
 If we wanted to use our Button component in our App.js file we could import it and call it like this:
-
 
 ```
 import './App.css';
@@ -89,9 +90,11 @@ function App() {
 export default App;
 ```
 
-- Notice how we import out Button at the top of our file then return it as if it were an HTML element
+- Notice how we import our Button at the top of our file then return it as if it were an HTML element. 
 
+Now you know what a React Component is - you're ready to go!
 
+See [Activity 1]() for your first challenge
 
 
 

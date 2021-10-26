@@ -53,7 +53,6 @@ function App() {
         </div>
       </main>
 
-
       <footer>
         <section className="nav__container footer">
           <ul className="footer__section ul">
