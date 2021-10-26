@@ -124,3 +124,9 @@ body {
 .icon {
   max-width: 1.875em;
 }
+
+@media only screen and (max-width: 359px) {
+  .header__title {
+    padding-left: 1.5rem;
+  }
+}
