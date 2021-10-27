@@ -1,4 +1,4 @@
-# Create React App file structure
+# Activity 1 - Explore the 'Create React App' file structure
 
 Note: This document provides a guide to the files in this React app. Some of the files that are automatically created with Create React App have been deleted, other new files (like cat.png) have been added by Tech Returners. `npx create-react-app` gets you set up with the basic file structure of a React app which you can then edit and tweak as you see fit. Read below for more information.
 
