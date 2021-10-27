@@ -1,31 +1,18 @@
 import './App.css';
 import icon from './cat.png'
+import Navbar from './components/Navbar'
+import Header from './components/Header'
+import CindyClawford from './components/CindyClawford';
 
 function App() {
   return (
     <>
-      <nav className="nav__container nav sticky content">
-        <ul className="nav__container nav ul">
-          <li><a className="links" href="home">Home</a></li>
-          <li><a className="links" href="mews">Mews</a></li>
-          <li><a className="links" href="contact">Contact</a></li>
-          <li><a className="links" href="https://www.cats.org.uk/sponsor">About</a></li>
-        </ul>
-      </nav>
-
-      <header className="header">
-        <h1 className="header__title">Welcome to React!</h1>
-      </header>
+      <Navbar />
+      <Header />
 
       <main>
         <div className="cards__wrapper">
-          <div className="card">
-            <h2 className="card__text card__header">Cindy Clawford</h2>
-            <img className="card__image" src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" alt="A cute tabby kitten"></img>
-            <p className="card__text">Species: Cat</p>
-            <p className="card__text">Favourite Food(s): Mice</p>
-            <p className="card__text">Birth Year: 2012</p>
-          </div>
+          <CindyClawford />
 
           <div className="card">
             <h2 className="card__text card__header">Little Miss Purrfect</h2>
