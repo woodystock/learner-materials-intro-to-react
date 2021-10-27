@@ -30,6 +30,6 @@ Save `App.js`
 
 Check the browser
 
-Our app should still work and look the same.. but now our Header code has become a re-usable component! 🥳
+Our app should still work and look the same.. but now our Header code has become a reusable component! Oh yeah! 🥳
 
 Move on to [Activity 4](./activity-4.md)

@@ -2,7 +2,7 @@
 
 Our `App.js` file is looking more and more like a React project should look!
 
-Both our navbar and header have been stripped out into re-usable components and so has our Cindy Clawford cat card. 
+Both our navbar and header have been stripped out into reusable components and so has our Cindy Clawford cat card. 
 
 Great work - you're getting the hang of this! 🙌
 
@@ -15,4 +15,6 @@ Using what you've learnt about creating components and importing them into `App.
 - My Gwumpy cat card
 - Footer
 
-When you've done that you can move to the extension [Activity 6](./activity-6.md)
+Remember to type out your functions and import statements so you can memorize the syntax. Format your document to keep things neat. 💅
+
+When you've done converting the above elements into components you can move on to the extension [Activity 6](./activity-6.md)

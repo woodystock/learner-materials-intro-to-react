@@ -1,12 +1,12 @@
 # Activity 6 - extension exercise
 
-Your React app should have lots of nice, re-usable components 
+Your React app should now have lots of nice, reusable components 
 
-Fantastic work!
+Fantastic work! 🔥
 
-After componentifying (is that a word?) the starter code there might be a few places you've spotted where we could add even more components. Components inside of components even!
+After componentifying (is that a word?) the starter code there might be a few places you've spotted where we could add even more components. Components inside of components even! 🤯
 
-One example where we could create more components might be in our Navbar. 
+One example where we could create more components might be in our Navbar component. 
 
 ```
 function Navbar() {
@@ -24,5 +24,18 @@ function Navbar() {
 
 export default Navbar;
 ```
+
+Although this works perfectly well, whenever we see repetition in code it is usually an indicator we could D.R.Y things out...
+
+## Food for thought 🌮 🧠
+
+Looking at the Navbar, are there any repeating patterns here that could be stripped out into further, smaller components?
+
+Is there anywhere else in our project we could reuse these components or do something similar? 
+
+What would be a problem with stripping out elements into smaller components here? Hint: Some things are the same, but what would we do about the parts that change like the link text?
+
+Great work on getting this far! In the next session we will be answering some of the above questions and covering Props and State 🙌
+
 
 

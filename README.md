@@ -25,23 +25,24 @@ The app should open in your browser and you should see some beautiful cat cards 
 If the page doesn't open automatically, you can open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits 👍
+
 You will also see any lint errors in the console ✅
 
-Meow lets get started!
+Meow, lets get started! 😺
 
 ## File System ~~Overmew~~ Overview 
 
-This project was created with `npx create-react-app`. This command (followed by the name of your project) builds a React App for you. Neat!
+This project was created with `npx create-react-app`. This command (followed by the name of your project) builds a React App for you and was used to create this project which we then modified. Neat!
 
 If you are unfamiliar with the Create React App file structure, you can find a break down in [Activity 1](./activities/activity-1.md) 🔨 
 
-Feel free to skip ahead to What is React? if you're happy with what does what!
+Feel free to skip ahead to What is React? if you're happy with what file does what!
 
-# What is React?
+# What is React? 🧐
 
 React is a JavaScript library for building interactive User Interfaces 📚
 
-# What is a Component?
+# What is a Component? 🧱
 
 A Component is one of the core building blocks of React. Components are independent and reusable bits of code. 
 
@@ -69,11 +70,11 @@ export default Button;
 
 - Components can refer to other components in their output. So if we wanted to, our button could import another Button component, or a Header component - or anything we like! 
 
-If we wanted to use our Button component in our App.js file we could import it to App.js and render it like this:
+If we wanted to use our Button component in our `App.js` file we could import it to `App.js` and render it like this:
 
 ```
 import './App.css';
-import Button from './components/button' // <----- here we import out button
+import Button from './components/button' // <----- here we import our button
 
 function App() {
   return (

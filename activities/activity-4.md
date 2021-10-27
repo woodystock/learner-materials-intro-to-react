@@ -36,7 +36,7 @@ export default CindyClawford;
 
 Save `CindyClawford.js`
 
-At the top of  `App.js` import out new Cindy Clawford component:
+At the top of `App.js` import our new Cindy Clawford component:
 
 `import CindyClawford from './components/CindyClawford'`
 
@@ -48,7 +48,7 @@ Save `App.js`
 
 Check the browser
 
-Our app should still work and look the same.. but now our Cindy Clawford card has become a re-usable component! 🥳
+Our app should still work and look the same.. but now our Cindy Clawford card has become a reusable component! 👯‍♂️
 
-Move on to [Activity 4](./activity-4.md)
+Move on to [Activity 5](./activity-5.md)
 
