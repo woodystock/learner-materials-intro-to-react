@@ -33,7 +33,7 @@ Meow lets get started!
 
 This project was created with `npx create-react-app`. This command (followed by the name of your project) builds a React App for you. Neat!
 
-If you are unfamiliar with the Create React App file structure, you can find a break down [here](./activities/activity-1.md) 🔨 
+If you are unfamiliar with the Create React App file structure, you can find a break down in [Activity 1](./activities/activity-1.md) 🔨 
 
 Feel free to skip ahead to What is React? if you're happy with what does what!
 
