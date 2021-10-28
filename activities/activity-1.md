@@ -28,7 +28,7 @@ This file uses markdown to tell us about the project. Here we define how to use 
 Similar to a package.json this file checks for different versions of dependencies, keeping our project consistent across various machines.
 
 
-### Public (folder)
+### public (folder)
 This is our 'root' folder which gets served up to the browser as our React app
 
 Our public folder contains: 
