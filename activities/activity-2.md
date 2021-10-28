@@ -37,6 +37,8 @@ export default Navbar;
 
 In `App.js` copy the navbar (lines 7 - 14) then paste them into our `Navbar.js` return statement (between the brackets () )
 
+It should look something like [this](https://github.com/techreturners/learner-materials-intro-to-react/blob/activity-4-example-solution/src/components/Navbar.js)
+
 Save `Navbar.js`
 
 At the top of `App.js` write `import Navbar from './components/Navbar.js'`

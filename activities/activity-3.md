@@ -16,9 +16,11 @@ export default Header;
 
 In App.js copy and paste our `h1` and surrounding `header` element into our new `Header.js` component file (after the return statement, between the braces)
 
+It should look something like [this](https://github.com/techreturners/learner-materials-intro-to-react/blob/activity-4-example-solution/src/components/Header.js)
+
 Save `Header.js`
 
-At the top of  `App.js` import out new Header component:
+At the top of  `App.js` import the new Header component:
 
 `import Header from './components/Header'`
 

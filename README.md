@@ -12,11 +12,21 @@ To install the dependencies run:
 
 ### `yarn install`
 
+or
+
+### `npm install`
+
+(They both do the same thing)
+
 Make sure you're in the right directory!
 
 To start the app:
 
 ### `yarn start`
+
+or
+
+### `npm start`
 
 Runs the app in the development mode.
 

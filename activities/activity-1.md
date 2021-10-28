@@ -15,9 +15,9 @@ This file tells Git which files it can ignore (not upload to GitHub). This is be
 
 You know those 'massive' files we tell git to ignore. Well we don't have to put these on GitHub because instead we have a package.json file, which acts as a *reference* to those massive file contents instead.
 
-Our package.json is like a shopping list of all the dependencies (or node_modules!) needed for this specific project. When we run `yarn install` npm finds those packages (from our package.json shopping list) and adds them to our project for us. 
+Our package.json is like a shopping list of all the dependencies (or node_modules!) needed for this specific project. When we run `yarn install` or `npm install` npm/yarn finds those packages (from our package.json shopping list) and adds them to our project for us. 
  
-This has the added bonus of meaning anyone can clone this project, then run `yarn install` and they'll have the same project on their machine. Sweet.
+This has the added bonus of meaning anyone can clone this project, then run `yarn install` or `npm install` and they'll have the same project on their machine. Sweet.
 
 ### README.md (file)
 
@@ -37,7 +37,7 @@ Our public folder contains:
 This is an icon that is used in our index.html as a favicon. A favicon is a small picture that gets shown in a pages tab
 
 - index.html (file)
-This is a template file that gets served up when we run `yarn start` to launch our app. We inject React components in this files root div container. It is considered best practice not to create extra html files in the public folder as this file is all we need for our app to work.
+This is a template file that gets served up when we run `yarn start`/`npm start` to launch our app. We inject React components in this files root div container. It is considered best practice not to create extra html files in the public folder as this file is all we need for our app to work.
 
 - logo192.png & logo512.png(files)
 These are React logos which have been deleted from this project in favour of content made by Tech Returners (when you make your own project you can delete or replace these files too!)
@@ -73,7 +73,7 @@ This was a React logo installed by `npx create-react-app` and has been deleted f
 By default, Create React App includes a performance relayer that allows you to measure and analyze the performance of your application using different metrics.
 
 - setupTests.js(file)
-This file is what gets invoked when we run `yarn test` from the command line. 
+This file is what gets invoked when we run `yarn test`/`npm test` from the command line. 
 
 - fonts (folder)
 This was a folder added by Tech Returners and doesn't get automatically installed with `npx create-react-app`. Here we have some Catty fonts saved locally to use in our project
