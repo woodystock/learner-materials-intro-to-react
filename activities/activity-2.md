@@ -24,7 +24,8 @@ In your new `src` directory create a new file called `Navbar.js`
 
 Type this code out into the file:
 
-```function Navbar() {
+```
+function Navbar() {
     return (
         
     )
