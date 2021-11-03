@@ -15,7 +15,7 @@ function App() {
           <CindyClawford />
 
           <div className="card">
-            <h2 className="card__text card__header">Little Miss Purrfect</h2>
+            <h3 className="card__text card__header">Little Miss Purrfect</h3>
             <img className="card__image" src="https://learnwebcode.github.io/json-example/images/cat-2.jpg" alt="A gray fluffy kitten"></img>
             <p className="card__text">Species: Cat</p>
             <p className="card__text">Favourite Food(s): Wet food, dry food</p>
@@ -23,7 +23,7 @@ function App() {
           </div>
 
           <div className="card">
-            <h2 className="card__text card__header">El Taco</h2>
+            <h3 className="card__text card__header">El Taco</h3>
             <img className="card__image" src="https://i.imgflip.com/mh1vd.jpg" alt="A cat wearing a sombrero, drinking tequila"></img>
             <p className="card__text">Species: Cat</p>
             <p className="card__text">Favourite Food(s): tequila, bar snax</p>
@@ -31,7 +31,7 @@ function App() {
           </div>
 
           <div className="card">
-            <h2 className="card__text card__header">Mr Gwumpy</h2>
+            <h3 className="card__text card__header">Mr Gwumpy</h3>
             <img className="card__image" src="https://cdn.cnn.com/cnnnext/dam/assets/190517103414-01-grumpy-cat-file-restricted.jpg" alt="A grumpy cat, frowning angrily"></img>
             <p className="card__text">Species: Cat</p>
             <p className="card__text">Favourite Food(s): Caviar</p>
