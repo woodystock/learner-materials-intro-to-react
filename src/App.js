@@ -4,8 +4,8 @@ import icon from './cat.png'
 function App() {
   return (
     <>
-      <nav className="nav__container nav sticky content">
-        <ul className="nav__container nav ul">
+      <nav className="nav__container">
+        <ul className="nav__container ul ul__navbar">
           <li><a className="links" href="home">Home</a></li>
           <li><a className="links" href="mews">Mews</a></li>
           <li><a className="links" href="contact">Contact</a></li>
@@ -13,14 +13,15 @@ function App() {
         </ul>
       </nav>
 
-      <header className="header">
-        <h1 className="header__title">Welcome to React!</h1>
+      <header className="header__container">
+        <h1 className="header__title header__welcome">Welcome to React!</h1>
+        <h2 className="header__title">There are currently 9 Cats in this Cat App</h2>
       </header>
 
       <main>
         <div className="cards__wrapper">
           <div className="card">
-            <h2 className="card__text card__header">Cindy Clawford</h2>
+            <h3 className="card__text card__header">Cindy Clawford</h3>
             <img className="card__image" src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" alt="A cute tabby kitten"></img>
             <p className="card__text">Species: Cat</p>
             <p className="card__text">Favourite Food(s): Mice</p>
@@ -28,7 +29,7 @@ function App() {
           </div>
 
           <div className="card">
-            <h2 className="card__text card__header">Little Miss Purrfect</h2>
+            <h3 className="card__text card__header">Little Miss Purrfect</h3>
             <img className="card__image" src="https://learnwebcode.github.io/json-example/images/cat-2.jpg" alt="A gray fluffy kitten"></img>
             <p className="card__text">Species: Cat</p>
             <p className="card__text">Favourite Food(s): Wet food, dry food</p>
@@ -36,7 +37,7 @@ function App() {
           </div>
 
           <div className="card">
-            <h2 className="card__text card__header">El Taco</h2>
+            <h3 className="card__text card__header">El Taco</h3>
             <img className="card__image" src="https://i.imgflip.com/mh1vd.jpg" alt="A cat wearing a sombrero, drinking tequila"></img>
             <p className="card__text">Species: Cat</p>
             <p className="card__text">Favourite Food(s): tequila, bar snax</p>
@@ -44,7 +45,7 @@ function App() {
           </div>
 
           <div className="card">
-            <h2 className="card__text card__header">Mr Gwumpy</h2>
+            <h3 className="card__text card__header">Mr Gwumpy</h3>
             <img className="card__image" src="https://cdn.cnn.com/cnnnext/dam/assets/190517103414-01-grumpy-cat-file-restricted.jpg" alt="A grumpy cat, frowning angrily"></img>
             <p className="card__text">Species: Cat</p>
             <p className="card__text">Favourite Food(s): Caviar</p>

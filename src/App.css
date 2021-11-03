@@ -23,27 +23,22 @@ body {
   margin: 0;
 }
 
-.ul {
-  padding: 0;
-  list-style-type: none;
-}
-
-.sticky {
-  position: fixed;
-  max-width: 62.5em;
-}
-
-.header {
+.header__container {
   display: flex;
   justify-content: center;
-/* margin-top here is to push header below sticky nav */
-  margin-top: 4em; 
+  align-items: center;
+  flex-direction: column;
 }
 
 .header__title {
   color: var(--navy);
   font-family: 'Cattino';
+}
+
+.header__welcome {
   font-size: 3rem;
+  margin-bottom: 0;
+  margin-top: .25em;
 }
 
 .cards__wrapper {
@@ -51,6 +46,8 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
   max-width: 62.5em;
+  min-width: 75vw;
+  min-height: 45vh;
 }
 
 .card {
@@ -63,6 +60,7 @@ body {
   margin-bottom: 1em;
   box-shadow: 0 4px 8px 0 rgb(13, 59, 102, 0.4);
   transition: 0.3s;
+  margin: .5em;
 }
 
 .card:hover {
@@ -101,20 +99,26 @@ body {
 
 .nav__container {
   background: var(--navy);
-  width: 100%;
   display: flex;
   justify-content: space-around;
-  align-items: center;
   flex-wrap: wrap;
   border-radius: 5px;
   box-shadow: 0 3px 7px 0 rgb(13, 59, 102, 0.2);
 }
 
+.ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.ul__navbar {
+  width: 100%;
+}
+
 .footer {
-  min-height: 14.375em;
   line-height: 2em;
-  padding-top: 0.625em;
-  padding-bottom: 0.625em;
+  margin-top: .5em;
+  padding: 1em 3em;
 }
 
 .footer__section {
@@ -125,7 +129,7 @@ body {
   max-width: 1.875em;
 }
 
-@media only screen and (max-width: 359px) {
+@media only screen and (max-width: 405px) {
   .header__title {
     padding-left: 1.5rem;
   }
