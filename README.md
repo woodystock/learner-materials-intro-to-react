@@ -4,7 +4,7 @@ Welcome to the wonderful world of React!
 
 ![React Atom](./public/react-catom.png)
 
-## How to Get Started
+# How to Get Started
 
 Fork this repo to your Github and then clone the forked version of this repo
 
@@ -40,7 +40,7 @@ You will also see any lint errors in the console ✅
 
 Meow, lets get started! 😺
 
-## File System ~~Overmew~~ Overview 
+# File System ~~Overmew~~ Overview 
 
 This project was created with `npx create-react-app`. This command (followed by the name of your project) builds a React App for you and was used to create this project which we then modified. Neat!
 
