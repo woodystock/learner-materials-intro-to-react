@@ -1,4 +1,4 @@
-# Activity ~~~Mew~~ 2
+# Activity ~~Mew~~ 2
 
 By now you should have installed your dependencies and have your React app running in the browser 🏃‍♀️💨
 
