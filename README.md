@@ -6,7 +6,7 @@ Welcome to the wonderful world of React!
 
 # How to Get Started
 
-Fork this repo to your Github and then clone the forked version of this repo
+## **Fork** this repo to your Github and then **clone** the forked version of this repo
 
 To install the dependencies run:
 
