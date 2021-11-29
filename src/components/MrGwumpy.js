@@ -7,7 +7,6 @@ function MrGwumpy() {
             <p className="card__text">Favourite Food(s): Caviar</p>
             <p className="card__text">Birth Year: 1984</p>
         </div>
-        
     )
 }
 
